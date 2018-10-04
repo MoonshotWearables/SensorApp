@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.anjie.sensorapp.SensorDataActivity">
+
+    <TextView
+        android:id="@+id/label_acc_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acc_sensor_text_X"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/label_acc_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/acc_sensor_text_Y"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_acc_x" />
+
+    <TextView
+        android:id="@+id/label_acc_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/acc_sensor_text_Z"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_acc_y" />
+
+    <TextView
+        android:id="@+id/timestamp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/timestamp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_acc_z" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_button"
+        android:text="Test Button"
+        />
+
+</LinearLayout>

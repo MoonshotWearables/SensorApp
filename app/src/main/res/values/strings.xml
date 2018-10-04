@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="TextView_text">(placeholder)</string>
+    <string name="button_text">Data</string>
+    <string name="Text_view_text">(placeholder)</string>
+
+    <string name="acc_sensor_text_X">Accelerometer Sensor X: %1$.2f</string>
+    <string name="acc_sensor_text_Y">Accelerometer Sensor Y: %1$.2f</string>
+    <string name="acc_sensor_text_Z">Accelerometer Sensor Z: %1$.2f</string>
+    <string name="timestamp">Timestamp: %d</string>
+    <string name="error_no_sensor">No sensor</string>
+    <string name="reg_email_text">Emails...</string>
+    <string name="reg_pswd_text">Password...</string>
+    <string name="pswd_confirm_text">Confirm Password...</string>
+    <string name="reg_btn_text">Sign Up</string>
+    <string name="login_email_text">Email...</string>
+    <string name="login_pswd_text">Password...</string>
+    <string name="login_btn_text">Login</string>
+    <string name="reg_login_btn_text">Already have an account?</string>
+    <string name="logout_text">Log out</string>
+
+</resources>
